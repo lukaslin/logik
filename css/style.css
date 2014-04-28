@@ -1,0 +1,121 @@
+body {
+    text-align: center;
+}
+
+#menu {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    background-color: #a4baf5;
+    border-right: 3px solid #45598f;
+    border-left: 3px solid #45598f;
+    border-bottom: 3px solid #45598f;
+    min-height: 30px;
+    width: 100px;
+    border-radius: 0px 0px 15px 15px;
+    padding: 5px 5px 10px 5px;
+}
+
+#menu a {
+    font-size: 20px;
+    text-decoration: none;
+}
+.results {
+    display:inline;
+    margin:5px;
+    background-color:rgb(200,200,200);
+    padding:5px;
+    text-align: left;
+  
+}
+
+#findRow {
+    border: 1px solid black;
+    background-color: grey;
+    width: auto;
+    display: inline-block;
+    
+}
+
+.element {
+    position: static;
+    display: inline-block;
+/*    border: 2px solid black;*/
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius:25px;
+    margin: 0px 5px 0px 5px;
+    padding: 0px;
+}
+
+.flag {
+    width: 30px;
+    height: 30px;
+}
+
+.assign, .nextRow {
+    display: inline-block;
+    padding: 4px 0px 0px 0px;
+    border-radius: 31px;
+}
+
+.assign {
+    border: 3px solid green;
+    background-color: #3bff3b;
+    
+}
+
+#form {
+
+}
+
+#statement {
+    display: none;
+}
+
+.nextRow {
+    border: 3px solid blue;
+    background-color: #9eb8ff;
+
+}
+
+#desk {
+    display: inline-table;
+    border-collapse:collapse;
+}
+
+td {
+    min-height: 64px;
+}
+
+#show {
+    display: inline-block;
+    background-color: red;
+    padding: 2px;
+    border-radius:5px;
+    vertical-align: top;
+    margin: 21px 30px 21px 30px;
+    height: 20px;
+    width: 60px;
+}
+
+.select {
+    display: none;
+    position: absolute;
+/*    width: 50px;
+    height: 300px;*/
+    margin: 0px 0px 0px -30px
+}
+
+.next-button {
+    position: absolute;
+    margin: -53px 0px 0px 130px;
+    
+}
+
+
+
+
+
+
